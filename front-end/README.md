@@ -2,7 +2,7 @@
 
 # Resumo
 
-O desafio consiste em um desenvolver um aplicativo que vai listar os personagens de Star Wars. Você tem no máximos 7 dias para completar o desafio.
+O desafio consiste em desenvolver um aplicativo que vai listar os personagens de Star Wars. Você tem no máximo 7 dias para completar o desafio.
 
 Após 45 segundos de uso do aplicativo, deve ser exibido um modal ou tela que bloqueie o uso do app e contenha uma mensagem pedindo que o usuário efetue um pagamento para continuar utilizando o mesmo. (a parte de receber pagamentos nao precisa ser implementada).
 
