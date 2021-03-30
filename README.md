@@ -1,12 +1,10 @@
 # Setta - Desafio Mobile
 
-# Resumo
-
 O desafio consiste em desenvolver um aplicativo que vai listar os personagens de Star Wars. Você tem no máximo 7 dias para completar o desafio.
 
 Após 45 segundos de uso do aplicativo, deve ser exibido um modal ou tela que bloqueie o uso do app e contenha uma mensagem pedindo que o usuário efetue um pagamento para continuar utilizando o mesmo. (a parte de receber pagamentos nao precisa ser implementada).
 
-# Instruções:
+## Instruções:
 
 - Crie um aplicativo que liste os personagens de Star Wars;
 - Utilize React Native para desenvover o aplicativo;
@@ -14,7 +12,7 @@ Após 45 segundos de uso do aplicativo, deve ser exibido um modal ou tela que bl
 - Você pode mostrar qualquer informações do personagem, desde que exiba no mínimo 3 informações de cada um;
 - O desafio tem que ser entregue em no máximo 7 dias;
 
-# Extras/Funcionalidades opcionais
+## Extras/Funcionalidades opcionais
 
 Se quiser dar um passo além, listamos aqui algumas coisas que você pode incluir na sua entrega:
 
@@ -25,7 +23,7 @@ Se quiser dar um passo além, listamos aqui algumas coisas que você pode inclui
 - Acrescente dois botões na tela de bloqueio ("pagar" e "mais tarde") e salve  no _storage_ local do dispositivo a informação de qual botão o usuário escolheu clicar.
 - Pense em uma funcionalidade interessante e implemente ela no app.
 
-# Critérios de avaliação
+## Critérios de avaliação
 
 - Organização do projeto;
 - Conhecimento de git;
@@ -33,11 +31,11 @@ Se quiser dar um passo além, listamos aqui algumas coisas que você pode inclui
 - Boas práticas;
 - Conhecimento do frameworks e outras tecnologias;
 
-# Dúvidas
+## Dúvidas
 
-Se tiver qualquer dúvida, envie um email para `bruno.bertolini@setta.co` ou abra uma issue no [projeto](https://github.com/setta-labs/challenges/issues)
+Se tiver qualquer dúvida abra uma [issue](https://github.com/setta-labs/challenges/issues)
 
-# Como submeter seu teste
+## Como submeter seu teste
 
 - Crie um repositório público no github
 - Envie link do repositorio para `bruno.bertolini@setta.co`
