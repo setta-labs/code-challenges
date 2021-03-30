@@ -7,7 +7,7 @@ Após 45 segundos de uso do aplicativo, deve ser exibido um modal ou tela que bl
 ## Instruções
 
 - Crie um aplicativo que liste os personagens de Star Wars;
-- Utilize React Native para desenvover o aplicativo;
+- Utilize React Native para desenvolver o aplicativo;
 - Consuma [essa api](https://swapi.dev/) para obter os dados dos personagens;
 - Você pode mostrar qualquer informações do personagem, desde que exiba no mínimo 3 informações de cada um;
 - O desafio tem que ser entregue em no máximo 7 dias;
