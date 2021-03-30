@@ -12,9 +12,9 @@ Após 45 segundos de uso do aplicativo, deve ser exibido um modal ou tela que bl
 - Você pode mostrar qualquer informações do personagem, desde que exiba no mínimo 3 informações de cada um;
 - O desafio tem que ser entregue em no máximo 7 dias;
 
-## Extras/Funcionalidades opcionais
+## Bonus Points! 🏆
 
-Se quiser dar um passo além, listamos aqui algumas coisas que você pode incluir na sua entrega:
+Se quiser dar um passo além, listamos aqui algumas funcionalidades que você pode acrescentar para valorizar ainda mais sua entrega:
 
 - Incluia testes unitários utilizando o [Jest](https://jestjs.io/pt-BR/);
 - Utilize o [React testing library](https://github.com/callstack/react-native-testing-library) no(s) seu(s) teste(s);
@@ -29,7 +29,7 @@ Se quiser dar um passo além, listamos aqui algumas coisas que você pode inclui
 - Conhecimento de git;
 - Organização e clareza do código;
 - Boas práticas;
-- Conhecimento do frameworks e outras tecnologias;
+- Conhecimento de ferramentas e frameworks do ecosistema Javascript e tecnologias relacionadas;
 
 ## Dúvidas
 
