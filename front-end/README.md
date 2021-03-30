@@ -22,7 +22,7 @@ Se quiser dar um passo além, listamos aqui algumas coisas que você pode inclui
 - Utilize o [React testing library](https://github.com/callstack/react-native-testing-library) no(s) seu(s) teste(s);
 - Implemente paginação na listagem;
 - Implemente paginação utilizando _scrolling_ infinito;
-- Acrescente dois botoes na tela de bloqueio ("pagar" e "mais tarde") e salve  no _storage_ local do dispositivo a informação de qual botão o usuário escolheu clicar.
+- Acrescente dois botões na tela de bloqueio ("pagar" e "mais tarde") e salve  no _storage_ local do dispositivo a informação de qual botão o usuário escolheu clicar.
 - Pense em uma funcionalidade interessante e implemente ela no app.
 
 # Critérios de avaliação
