@@ -1,40 +1,43 @@
-# Setta - Frontend
+# Setta - Desafio Frontend
 
-# O desafio
+# Resumo
 
-O desafio consiste em um aplicativo que vai listar os personagens de Star Wars. Você tem no máximos 7 dias para completar o desafio.
+O desafio consiste em um desenvolver um aplicativo que vai listar os personagens de Star Wars. Você tem no máximos 7 dias para completar o desafio.
 
-É importante que tenha pelo menos 3 informações de cada personagem listado. Após 45 segundos de uso do aplicativo, deve-se mostrar um paywall bloqueante para o usário, que vai impedi-lo de mexer no app. Esse paywall deve aparecer por cima do app inteiro avisando ao usuário que o uso do app está bloqueado até que ele efetue o pagamento da mensalidade.
+Após 45 segundos de uso do aplicativo, deve ser exibido um modal ou tela que bloqueie o uso do app e contenha uma mensagem pedindo que o usuário efetue um pagamento para continuar utilizando o mesmo. (a parte de receber pagamentos nao precisa ser implementada).
 
-- O desafio tem que ser entregue em no máximo 7 dias
-- Crie um aplicativo para listar os personagens de star wars
-- Deve-se utilizar React-native para o aplicativo
-- Deve-se puxar os dados usando [essa api](https://swapi.dev/)
-- Você pode mostrar qualquer informação do personagem contanto que mostre pelo menos 3
-- Após 45 segundos de uso, deve-se mostrar um paywall bloqueante por cima do app
+# Instruções: 
 
-# Extras
+- Crie um aplicativo que liste os personagens de Star Wars;
+- Utilize React Native para desenvover o aplicativo;
+- Consuma [essa api](https://swapi.dev/) para obter os dados dos personagens;
+- Você pode mostrar qualquer informações do personagem exibir, desde que exiba no mínimo 3 informações de cada personagem;
+- O desafio tem que ser entregue em no máximo 7 dias;
 
-- Testes unitários com [jest](https://jestjs.io/pt-BR/)
-- Testes unitários com [React testing library](https://github.com/callstack/react-native-testing-library)
-- Paginação na listagem
-- Paginação com scroll infinito
-- Uso do async storage para salvar/pegar dados do pagamento
-- Ser criativo
+# Extras/Funcionalidades opcionais
+
+Se quiser dar um passo além, listamos aqui algumas coisas que você pode incluir na sua entrega:
+
+- Incluia testes unitários utilizando o [Jest](https://jestjs.io/pt-BR/);
+- Utilize o [React testing library](https://github.com/callstack/react-native-testing-library) no(s) seu(s) teste(s);
+- Implemente paginação na listagem;
+- Implemente paginação utilizando _scrolling_ infinito;
+- Acrescente dois botoes na tela de bloqueio ("pagar" e "mais tarde") e salve  no _storage_ local do dispositivo a informação de qual botão o usuário escolheu clicar.
+- Pense em uma funcionalidade interessante e implemente ela no app.
 
 # Critérios de avaliação
 
-- Organização do projeto
-- Conhecimento de git
-- Organização e clareza do código
-- Boas práticas
-- Conhecimento do frameworks e outras tecnologias
+- Organização do projeto;
+- Conhecimento de git;
+- Organização e clareza do código;
+- Boas práticas;
+- Conhecimento do frameworks e outras tecnologias;
 
 # Dúvidas
 
-Se tiver qualquer dúvida pode enviar um email para bruno.bertolini@setta.co ou abrir uma issue no [projeto](https://github.com/setta-labs/challenges/issues)
+Se tiver qualquer dúvida, envie um email para `bruno.bertolini@setta.co` ou abra uma issue no [projeto](https://github.com/setta-labs/challenges/issues)
 
-# Como enviar o teste
+# Como submeter seu teste
 
-- Abrir um repositório público no github
-- Enviar link do repositorio para bruno.bertolini@setta.co
+- Crie um repositório público no github
+- Envie link do repositorio para `bruno.bertolini@setta.co`
