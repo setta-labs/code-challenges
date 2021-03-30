@@ -2,9 +2,9 @@
 
 O desafio consiste em desenvolver um aplicativo que vai listar os personagens de Star Wars. Você tem no máximo 7 dias para completar o desafio.
 
-Após 45 segundos de uso do aplicativo, deve ser exibido um modal ou tela que bloqueie o uso do app e contenha uma mensagem pedindo que o usuário efetue um pagamento para continuar utilizando o mesmo. (a parte de receber pagamentos nao precisa ser implementada).
+Após 45 segundos de uso do aplicativo, deve ser exibido um modal ou tela que bloqueie o uso do app e contenha uma mensagem pedindo que o usuário efetue um pagamento para continuar utilizando o mesmo. (a parte de receber pagamentos não precisa ser implementada).
 
-## Instruções:
+## Instruções
 
 - Crie um aplicativo que liste os personagens de Star Wars;
 - Utilize React Native para desenvover o aplicativo;
