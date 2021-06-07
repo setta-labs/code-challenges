@@ -29,7 +29,7 @@ Cada tarefa pode ter uma lista de tempos, onde teremos cada bloco de foco e cada
 - Qual tempo médio de foco de cada tarefa;
 - Qual tempo médio de interrupção em cada tarefa.
 
-Por enquanto, precisamos apenas guardar esses dados e retorná-los em um endpoint para atender [às telas](./img/timeblocks.png) que serão desenvolvidas no app.
+Por enquanto, precisamos apenas guardar esses dados e retorná-los em um endpoint para atender às [telas](./img/screens.png) que serão desenvolvidas no app.
 
 ## Extras/Funcionalidades opcionais
 
