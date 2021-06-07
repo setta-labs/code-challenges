@@ -25,7 +25,7 @@ Precisamos registrar o tempo que um usuário passa focado, e também quanto temp
 - usuário pressiona `play` o cronômetro inicia a contagem;
 - usuário pressiona `pause` quando o cronômetro registra `02:10`;
 - usuário fica `01:25` em modo `pause`;
-- usuário pressiona `play` novamente e o cronometro continua de `02:10`;
+- usuário pressiona `play` novamente e o cronômetro continua de `02:10`;
 - uma nova pausa com cronômetro marcando `06:05`, portanto esse bloco de tempo durou `3:55`
 - depois de `08:20`, novamente aperta o play;
 - usuário pressiona `finalizar` com cronômetro marcando `18:39`, e vê a tela seguinte com as informações que estão na [imagem de timeblocks](./img/timeblocks.png);
