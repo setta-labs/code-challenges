@@ -1,41 +1,53 @@
 # Setta - Desafio Mobile
 
-O desafio consiste em desenvolver um aplicativo que vai listar os personagens de Star Wars. Você tem no máximo 7 dias para completar o desafio.
+Esse desafio é parte do processo de seleção para desenvolvedores mobile que desejam trabalhar na [Setta](http://setta.co).
 
-Após 45 segundos de uso do aplicativo, deve ser exibido um modal ou tela que bloqueie o uso do app e contenha uma mensagem pedindo que o usuário efetue um pagamento para continuar utilizando o mesmo. (a parte de receber pagamentos não precisa ser implementada).
+## Sobre o desafio
 
-## Instruções
+O objetivo é avaliar sua experiência em escrever código coeso, de fácil manutenção e baixo acoplamento. Não existem respostas certas ou erradas, portanto você será avalidado de acordo com alguns critérios de aceite, além dos itens anteriormente comentados.
 
-- Crie um aplicativo que liste os personagens de Star Wars;
-- Utilize React Native para desenvolver o aplicativo;
-- Consuma [essa api](https://swapi.dev/) para obter os dados dos personagens;
-- Você pode mostrar qualquer informações do personagem, desde que exiba no mínimo 3 informações de cada um;
-- O desafio tem que ser entregue em no máximo 7 dias;
+## A Avaliação
 
-## Bonus Points! 🏆
-
-Se quiser dar um passo além, listamos aqui algumas funcionalidades que você pode acrescentar para valorizar ainda mais sua entrega:
-
-- Incluia testes unitários utilizando o [Jest](https://jestjs.io/pt-BR/);
-- Utilize o [React testing library](https://github.com/callstack/react-native-testing-library) no(s) seu(s) teste(s);
-- Implemente paginação na listagem;
-- Implemente paginação utilizando _scrolling_ infinito;
-- Acrescente dois botões na tela de bloqueio ("pagar" e "mais tarde") e salve  no _storage_ local do dispositivo a informação de qual botão o usuário escolheu clicar.
-- Pense em uma funcionalidade interessante e implemente ela no app.
-
-## Critérios de avaliação
-
-- Organização do projeto;
+- Atendimento aos critérios de aceite;
+- Documentação (comente sobre decisões técnicas, escolhas, requisitos, etc);
+- Código (modularização, nomenclaturas, padronização, reutilização, organização);
+- Design da solução/arquitetura;
 - Conhecimento de git;
-- Organização e clareza do código;
-- Boas práticas;
-- Conhecimento de ferramentas e frameworks do ecosistema Javascript e tecnologias relacionadas;
+- Conhecimento do frameworks e outras tecnologias;
+- Algoritmo, abstrações e acoplamento.
+
+## O problema
+
+Precisamos registrar o tempo que um usuário passa focado, e tambem quanto tempo ele tem de interrupções enquanto faz uma tarefa. Para isso, criamos um cronômetro que registra cada bloco de tempo, de pausa e de foco, e que nos mostra um relatório ao ser finalizado.
+
+**Um exemplo de uso**:
+
+- usuário pressiona `play` o cronômetro inicia a contagem;
+- usuário pressiona `pause` quando o cronômetro registra `02:10`;
+- usuário fica `01:25` em modo `pause`;
+- usuário pressiona `play` novamente e o cronometro continua de `02:10`;
+- uma nova pausa com cronômetro marcando `06:05`, portanto esse bloco de tempo durou `3:55`
+- depois de `08:20`, novamente aperta o play;
+- usuário pressiona `finalizar` com cronômetro marcando `18:39`, e vê a tela seguinte com as informações que estão na [imagem de timeblocks](./img/timeblocks.png);
+
+> Você pode ver as 3 telas que precisam ser desenvolvidas diretamente [figma](https://www.figma.com/file/UnE9gL6XCrPsVXjHbrTc8d/Setta-Mobile-Challange?node-id=0%3A1), ou [aqui](./img/screens.png)
+
+## Extras/Funcionalidades opcionais
+
+Se quiser dar um passo além, listamos aqui algumas coisas que você pode incluir na sua entrega:
+
+- Incluia testes automatizados utilizando o [Jest](https://jestjs.io/pt-BR/) e [React testing library](https://github.com/callstack/react-native-testing-library);
+- Adicione uma nova tela, para mostrar os cronômetros finalizados, onde seja possível acessá-los e ver os timeblocks de cada um;
+- Pense em uma funcionalidade interessante e implemente ela no app, use a criatividade!
+
+## Como submeter seu teste
+
+Após finalizar o desafio, envia, dê acesso ao [@brunobertolini](http://github.com.brunobertolini), e então envie um email para `bruno.bertolini@setta.co` com:
+
+Assunto: [Mobile Developer] Seu nome;
+Link do repositório do seu teste
+Informações sobre você: Github, Linkedin, e tudo o que considerar importante.
 
 ## Dúvidas
 
 Se tiver qualquer dúvida abra uma [issue](https://github.com/setta-labs/challenges/issues)
-
-## Como submeter seu teste
-
-- Crie um repositório público no github
-- Envie link do repositorio para `bruno.bertolini@setta.co`
