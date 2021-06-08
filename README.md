@@ -1,4 +1,4 @@
-# Setta - Code Challanges
+# Setta - Code Challenges
 
 Estamos sempre em busca de bons profissionais para fazer parte do nosso time da [Setta](https://setta.co)!
 
